@@ -126,7 +126,7 @@ for(let i=0; i<3000000; i++)
 
 */
 
-/*  What are callbacks?
+/*  What are callbacks? (in context to asynchronous JS)
 
 callback humesha ek function hota hai, ye sirf tab chalta hai jab async code
 ka completion hojaata hai.

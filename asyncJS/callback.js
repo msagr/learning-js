@@ -68,25 +68,3 @@ step 1 is complete. Please call step 2   (because of asynchronicity)
 */
 
 
-/* Ice-cream business :-
-
-1.  order from customer
-2.  fetch ingredients
-3.  start production
-4.  serve
-
-
-Let's code this out using JS callbacks.
-*/
-
-// everytime we get order we call production.
-
-// forming this relationship between the functions.
-let order = (call_production) => {
-    console.log("order placed, please call production")
-    call_production()
-};
-
-let production = () => {
-    console.log("order received, starting production")
-};

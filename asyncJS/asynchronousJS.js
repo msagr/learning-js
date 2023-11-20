@@ -93,10 +93,12 @@ console.log("hey 3");
 console.log("Hi")
 setTimeout(function(){
     console.log("Hello");
-},100);
+},0);
 
 for(let i=0; i<3000000; i++)
     console.log(i)
+
+// here, Hello will be printed after execution of for loop.
 
 
 /*
